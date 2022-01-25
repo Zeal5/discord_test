@@ -11,13 +11,15 @@ async def on_ready():
 
 
 @client.command()
-async def clear(ctx, amount=3):
+async def clear(ctx, amount=2):
     await ctx.channel.purge(limit=amount)
-    
+
+
+
+
+
+client.run('OTM1MzEwNDE2NjY4Njg0NDA4.Ye8xtA.fPZNMJOl6xS2IBDS2pqmY8DSSUg')
     
 
-client.run('')
-    
 
-ggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg
 
